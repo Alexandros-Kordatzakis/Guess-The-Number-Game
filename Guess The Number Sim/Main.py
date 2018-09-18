@@ -45,11 +45,15 @@ no = {'no', 'n', 'N', 'No', 'Noo', 'noo', 'no!', 'n!', 'N!', 'No!', 'Noo!', 'noo
 
 def SimProcss():
 
+    # At the beginning, I'll add an algorith to generate random INT's (or use the 'random' library and the number
+    # will be named e.g. "Guessing Number".  Then, with 'if' i'll try to display 'HOT' or 'COLD' if the 'Guessing Number' 
+    # is < or > the user's inputed number.
+    
+   
     print("Ok. I now have a number in my mind. Can you try to guess it?")
-    user_answer_to_the_game_quest = input("")
+    user_answer_to_the_game_quest1 = input("")
 
     #if 
-
 
 
 
