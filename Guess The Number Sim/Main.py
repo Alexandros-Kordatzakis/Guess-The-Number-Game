@@ -4,17 +4,7 @@ import os
 import ctypes
 
 
-ctypes.windll.kernel32.SetConsoleTitleW("Guess The Number!")
-
-
-
-#    ██████╗ ██╗   ██╗███████╗███████╗███████╗    ████████╗██╗  ██╗███████╗    ███╗   ██╗██╗   ██╗███╗   ███╗██████╗ ███████╗██████╗     ██╗
-#   ██╔════╝ ██║   ██║██╔════╝██╔════╝██╔════╝    ╚══██╔══╝██║  ██║██╔════╝    ████╗  ██║██║   ██║████╗ ████║██╔══██╗██╔════╝██╔══██╗    ██║
-#   ██║  ███╗██║   ██║█████╗  ███████╗███████╗       ██║   ███████║█████╗      ██╔██╗ ██║██║   ██║██╔████╔██║██████╔╝█████╗  ██████╔╝    ██║
-#   ██║   ██║██║   ██║██╔══╝  ╚════██║╚════██║       ██║   ██╔══██║██╔══╝      ██║╚██╗██║██║   ██║██║╚██╔╝██║██╔══██╗██╔══╝  ██╔══██╗    ╚═╝
-#   ╚██████╔╝╚██████╔╝███████╗███████║███████║       ██║   ██║  ██║███████╗    ██║ ╚████║╚██████╔╝██║ ╚═╝ ██║██████╔╝███████╗██║  ██║    ██╗
-#    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚══════╝       ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝
-
+# ctypes.windll.kernel32.SetConsoleTitleW("Guess The Number!")
 
 
 
@@ -49,11 +39,14 @@ def SimProcss():
     # will be named e.g. "Guessing Number".  Then, with 'if' i'll try to display 'HOT' or 'COLD' if the 'Guessing Number' 
     # is < or > the user's inputed number.
     
-   
-    print("Ok. I now have a number in my mind. Can you try to guess it?")
-    user_answer_to_the_game_quest1 = input("")
+   	#rndmNumbs = {'5', '1', '2', '7', '8', '3', '10', '4', '6', '9'}
 
-    #if 
+		user_answer_to_the_game_quest1 = input("Ok. I now have a number in my mind. Can you guess which is it? (From 1-10. Write the number.)n")
+
+
+		# Write code that picks a random number from my 'rndmNumbs'.  Then, the following code will be easy to wrie.   
+
+    #if user_answer_to_the_game_quest1 = 
 
 
 
@@ -62,7 +55,7 @@ def SimProcss():
 def beforeSimulatorProcss():
     
     os.system('cls')
-    user_answer_2 = input("Would you like to see the 'How to Play' tab?\n")
+    user_answer_2 = input("Would you like to see the 'How to Play' tab?n")
 
 
 
